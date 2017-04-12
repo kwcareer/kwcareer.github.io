@@ -1,0 +1,66 @@
+/* Style sheet for my CVfull and Summary */
+ 
+    head, body {
+      font-family: sans-serif;
+      font-size: 11pt;
+      background-color: white;
+      }
+    h1,h2,h3,h4 {
+      font-family: serif;
+      color: indigo;
+      }
+    header {
+        font-size: smaller;
+        border: 1px dotted gray;
+        background-color: pink;
+        }
+    section {
+      padding: 1ex;
+      border: 1px solid gray;
+      border-radius:12px;
+      -moz-border-radius:12px; /* Firefox 3.6 and earlier */
+      border-color: indigo;
+      background-color: white;
+      }
+    section>section {
+      border-color: orange;
+       border-radius:8px;
+      -moz-border-radius:8px; /* Firefox 3.6 and earlier */
+     }
+    section+section {
+      margin-top:1ex;
+      }
+    section>section>section {
+      margin-top:1ex;
+      border-radius:4px;
+      -moz-border-radius:4px; /* Firefox 3.6 and earlier */
+      border-color: gray;
+      }
+    th, td {
+      padding: 0.2ex;
+      }
+    meter {
+      width: 100%;
+      }
+    dt {
+      margin-left: 3ex;
+      font-weight: bold;
+      }
+    dl {
+      list-style-type: square;
+      }
+    li.title {
+      font-weight: bold;
+      list-style-type: none;
+      margin-left: -3ex;
+      }
+    li.subtitle {
+      font-weight: bold;
+      list-style-type: none;
+      margin-left: -3ex;
+      margin-top: 0.5ex;
+      }
+    li.dates {
+      list-style-type: none;
+      margin-left: -3ex;
+      }
